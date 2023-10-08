@@ -1,0 +1,44 @@
+[
+    {
+        "id" : "1",
+        "name" : "Weddings",
+        "image" : "",
+        "price": "300$",
+        "description" : ""
+    },
+    {
+        "id" : "2",
+        "name" : "Birthday Parties",
+        "image" : "",
+        "price": "300$",
+        "description" : ""
+    },
+    {
+        "id" : "3",
+        "name" : "Anniversaries",
+        "image" : "",
+        "price": "300$",
+        "description" : ""
+    },
+    {
+        "id" : "4",
+        "name" : "Engagement Parties",
+        "image" : "",
+        "price": "300$",
+        "description" : ""
+    },
+    {
+        "id" : "5",
+        "name" : "Retirement Parties",
+        "image" : "",
+        "price": "300$",
+        "description" : ""
+    },
+    {
+        "id" : "6",
+        "name" : "Baby shower",
+        "image" : "",
+        "price": "300$",
+        "description" : ""
+    },
+]
