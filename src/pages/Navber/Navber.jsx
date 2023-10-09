@@ -20,7 +20,7 @@ const Navber = () => {
         {navLinks}
       </ul>
     </div>
-    <div className="text-lg font-bold bg-slate-700 text-slate-100 rounded p-3">Social Events</div>
+    <div className="text-lg font-bold bg-slate-300  rounded p-3">Social Events</div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

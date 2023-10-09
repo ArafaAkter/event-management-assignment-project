@@ -2,43 +2,43 @@
     {
         "id" : "1",
         "name" : "Weddings",
-        "image" : "",
-        "price": "300$",
-        "description" : ""
+        "image" : "https://i.ibb.co/3TyXZGX/pink-notepad-wedding-planning-rose-wooden-background-57688941.webp",
+        "price": "400$",
+        "description" : "Creating dream weddings is my forte! As a wedding event manager, I orchestrate the perfect blend of love and logistics, turning your special day into a seamless and magical experience. From exquisite decor to flawless coordination, I ensure every detail is a celebration of your love story. Let's turn your dreams into a wedding reality!"
     },
     {
         "id" : "2",
         "name" : "Birthday Parties",
-        "image" : "",
-        "price": "300$",
-        "description" : ""
+        "image" : "https://i.ibb.co/nmqzsG7/lidya-nada-MD-ha01-Bk7c-unsplash.jpg",
+        "price": "200$",
+        "description" : "I'm the maestro of memorable birthdays! From themed extravaganzas to intimate gatherings, I specialize in crafting unforgettable celebrations tailored to your unique style. Let me handle the details, from whimsical decorations to entertainment that'll leave your guests talking. Your birthday bash, my expertise—let's make it extraordinary!"
     },
     {
         "id" : "3",
         "name" : "Anniversaries",
-        "image" : "",
-        "price": "300$",
-        "description" : ""
+        "image" : "https://i.ibb.co/pRgbccM/engin-akyurt-Cb4-FEq0-Cp-g-unsplash.jpg",
+        "price": "200$",
+        "description" : "Turning love stories into timeless celebrations! I specialize in anniversary event management, where every detail is a brushstroke painting the canvas of your unique journey. From romantic ambiances to seamless coordination, I ensure your milestone is a reflection of your enduring love. Let's create an anniversary celebration that leaves you with heartwarming memories for a lifetime."
     },
     {
         "id" : "4",
         "name" : "Engagement Parties",
-        "image" : "",
-        "price": "300$",
-        "description" : ""
+        "image" : "https://i.ibb.co/s2YPYrs/beatriz-perez-moya-M2-T1j-6-Fn8w-unsplash-1.png",
+        "price": "350$",
+        "description" : "Crafting the perfect prelude to forever! As an engagement party event manager, I specialize in curating celebrations that capture the essence of your love story. From chic decor to engaging entertainment, I ensure your engagement party is a flawless and joyous occasion. Let's kick off your journey to  with a celebration that sets the stage for a lifetime of happiness!"
     },
     {
         "id" : "5",
         "name" : "Retirement Parties",
-        "image" : "",
-        "price": "300$",
-        "description" : ""
+        "image" : "https://i.ibb.co/GtrBx3g/istockphoto-1131794316-2048x2048.jpg",
+        "price": "200$",
+        "description" : "Farewells and Welcomings, expertly celebrated! As an event manager, I specialize in orchestrating heartfelt retirement parties, bidding adieu to one chapter, and joyous baby showers, ushering in a new one. From honoring a career's legacy to welcoming the newest member of the family, I craft events that resonate with warmth, joy, and a touch of personalized charm. Let's make your transitions as memorable as they are meaningful!"
     },
     {
         "id" : "6",
         "name" : "Baby shower",
-        "image" : "",
+        "image" : "https://i.ibb.co/xG9JS8g/aboodi-vesakaran-ox-P3bl3x-QPI-unsplash.jpg",
         "price": "300$",
-        "description" : ""
-    },
+        "description" : "Welcoming the tiniest VIP with the grandest celebration! As a baby shower event manager, I specialize in curating events that radiate joy and anticipation. From whimsical decor to heartwarming details, I ensure your baby shower is a perfect blend of love and excitement. Let's create a memorable and charming day as you prepare to embark on the beautiful journey of parenthood!"
+    }
 ]
