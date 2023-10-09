@@ -1,20 +1,28 @@
+import { Link } from "react-router-dom";
 
 const Service = ({service}) => {
 
-   const {name,image,description,price} = service||{} 
-
+   
+const {id,name,image,description,price} = service||{} 
     return (
-        <div className="card lg:card-side bg-slate-300 shadow-xl mb-5 w-10/12 mx-auto rounded">
-        <figure className="w-1/2"><img src={image}className=" rounded " alt="Album"/></figure>
-        <div className="card-body w-2/12">
-          <h1 className="card-title font-bold text-3xl">{name}</h1>
-          <p>{description}</p>
-          <p className="text-2xl font-bold">{price}</p>
-          <div className="card-actions justify-end">
-            <button className="btn">Details</button>
-          </div>
-        </div>
-      </div>
+ 
+    <div className="card mx-auto mt-10 gap-4 bg-slate-200 shadow-xl">
+  <figure className="">
+    <img src={image} alt="" className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title font-bold text-2xl">{name}</h2>
+    <p>{description}</p>
+    <h1 className="text-2xl font-bold">Price : {price}</h1>
+   
+   <div className="card-actions">
+  <Link to={`/Services/${id}`}>
+  <button className="btn w-60 text-xl font-bold"> SEE DETAILS</button>
+  </Link>
+     </div>
+   
+  </div>
+</div>
     );
 };
 
