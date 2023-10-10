@@ -1,12 +1,28 @@
+
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Providers/AuthProvider";
+
 
 const Login = () => {
+
+  const {signIn} = useContext(AuthContext)
 
   const handleLogin = e =>{
     e.preventDefault();
     console.log(e.currentTarget);
-    const form = new FormData(e.currentTarget)
-    console.log(form);
+    const form = new FormData(e.currentTarget);
+    const email = form.get('email');
+    const password = form.get('password');
+    console.log(email,password);
+    signIn(email,password)
+    .then(result =>{
+      console.log(result.user)
+    })
+    .catch(error =>{
+      console.log(error);
+    })
+
   }
 
 
@@ -19,13 +35,13 @@ const Login = () => {
           <label className="label">
             <span className="label-text">Email</span>
           </label>
-          <input type="email" placeholder="email" className="input input-bordered" required />
+          <input type="email" placeholder="email" name="email" className="input input-bordered" required />
         </div>
         <div className="form-control">
           <label className="label">
             <span className="label-text">Password</span>
           </label>
-          <input type="password" placeholder="password" className="input input-bordered" required />
+          <input type="password" placeholder="password" name="password" className="input input-bordered" required />
         </div>
         <div className="form-control mt-6">
           <button className="btn bg-slate-300">Login</button>
