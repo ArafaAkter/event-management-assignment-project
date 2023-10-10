@@ -5,6 +5,8 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import ServiceCart from "../pages/ServiceCart/ServiceCart";
+import PrivetRoute from "./PrivetRoute";
+
 
 const router = createBrowserRouter([
     {
@@ -27,7 +29,7 @@ const router = createBrowserRouter([
             },
             {
                 path:'/Services/:id',
-                element:<ServiceCart></ServiceCart>,
+                element:<PrivetRoute><ServiceCart></ServiceCart></PrivetRoute>,
                 loader:()=>fetch('/event.json')
             }
         ]
